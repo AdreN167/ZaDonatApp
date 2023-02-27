@@ -41,4 +41,12 @@
         app:layout_constraintStart_toStartOf="@+id/nav_host_fragment_activity_main"
         app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_activity_main" />
 
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="147dp"
+        android:layout_height="275dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_activity_main" />
+
 </android.support.constraint.ConstraintLayout>
